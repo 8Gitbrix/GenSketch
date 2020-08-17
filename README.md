@@ -6,6 +6,8 @@ Objective is to make models that sketch (vector drawings) of different classes.
 We experimented with different models based on the Sketch-RNN model [1], which is a VAE-RNN that generates sketches of images. 
 The models used to generate sketches are a VAE-CNN based off of [1] but with a CNN instead of an RNN for the input, DCGAN, and Sketch-pix2seq [2].
 
+Video Intro: https://drive.google.com/drive/folders/1za0atAODg4mE1kjNKlsja9o9kiFmFfUY 
+
 ## Dataset
 We used Google’s QuickDraw dataset [5] to generate the images and train our classifier. 
 The QuickDraw dataset consists of 50 million drawings and 345 categories. 
